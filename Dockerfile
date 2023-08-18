@@ -48,5 +48,5 @@ COPY --from=gradle-build /home/gradle/project/EternalJukebox/build/libs/* ./
 
 # envsubst is used so environment variables can be used instead of a config file
 
-CMD envsubst < "/EternalJukebox/envvar_config.yaml" > "/EternalJukebox/config.yaml"\
+CMD envsubst < "/tmp_conf/envvar_config.yaml" > "/EternalJukebox/config.yaml"\
     && java -jar EternalJukebox-all.jar
