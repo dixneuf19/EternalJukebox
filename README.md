@@ -28,7 +28,7 @@ version: "3"
 
 services:
   main:
-    image: daviirodrig/eternaljukebox
+    image: dixneuf19/eternaljukebox
     ports:
       - 8080:8080
     env_file:
@@ -39,7 +39,7 @@ services:
 
 To start, run `docker compose up -d` in the folder containing `envvar_config.yaml`, `.env` and `docker-compose.yaml`. To stop, run `docker compose down`.
 
-If you want to you can upgrade the image by pulling the newest with `docker pull daviirodrig/eternaljukebox` and then restart with `docker compose down` and `docker compose up -d`
+If you want to you can upgrade the image by pulling the newest with `docker pull dixneuf19/eternaljukebox` and then restart with `docker compose down` and `docker compose up -d`
 
 If you want to change the port from 8080, edit `docker-compose.yml` port, to be `- <your port>:8080`
 
