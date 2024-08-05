@@ -36,7 +36,7 @@ dependencies {
     implementation "io.vertx:vertx-lang-kotlin-coroutines:$vertx_version"
 
     implementation "com.h2database:h2:1.4.196"
-    implementation "mysql:mysql-connector-java:5.1.45"
+    implementation "mysql:mysql-connector-java:5.1.49"
     implementation "com.zaxxer:HikariCP:2.7.7"
     implementation "com.google.cloud.sql:mysql-socket-factory:1.0.5"
 
